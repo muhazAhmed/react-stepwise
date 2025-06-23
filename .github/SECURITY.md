@@ -2,9 +2,9 @@
 
 ## Reporting a Vulnerability
 
-If you find a security issue or vulnerability in **react-stepwise**, please contact me directly instead of creating a public issue.
+If you find a security issue or vulnerability in **react-stepwise**, please report it responsibly via this form:
 
-**Contact:** 
+👉 [Security Disclosure Form](https://forms.gle/qe4Lsq6F5yZLKrj56)
 
 We appreciate responsible disclosure and will do our best to address the issue as quickly as possible.
 
