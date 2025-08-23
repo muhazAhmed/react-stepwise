@@ -1,54 +1,54 @@
-# React + TypeScript + Vite
+# React Stepwise
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Author:** Muhaz Ahmed  
+**License:** MIT  
+**Repository:** [github.com/muhazAhmed/react-stepwise](https://github.com/muhazAhmed/react-stepwise)
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Description
 
-## Expanding the ESLint configuration
+**React Stepwise** is a **customizable, animated multi-step form component** for React + Tailwind CSS. It provides an easy-to-use **stepper** with various variants (numeric, check, custom icon, silent, labeled steps) and supports **dynamic step data**.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+Perfect for onboarding flows, forms, tutorials, or any step-by-step UI in your React applications.
 
-```js
-export default tseslint.config({
-  extends: [
-    // Remove ...tseslint.configs.recommended and replace with this
-    ...tseslint.configs.recommendedTypeChecked,
-    // Alternatively, use this for stricter rules
-    ...tseslint.configs.strictTypeChecked,
-    // Optionally, add this for stylistic rules
-    ...tseslint.configs.stylisticTypeChecked,
-  ],
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+## Features
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+- ✅ Numeric or check step indicators  
+- 🔥 Custom icon support  
+- 🖤 Silent variant (no numbers or icons)  
+- 🎨 Fully tailwind-styled with customizable colors  
+- ⚡ Animated transitions (via Framer Motion on demo pages)  
+- 📝 Supports step labels and custom step statuses  
+- 📦 Works in both TypeScript and JavaScript projects  
 
-export default tseslint.config({
-  plugins: {
-    // Add the react-x and react-dom plugins
-    'react-x': reactX,
-    'react-dom': reactDom,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended typescript rules
-    ...reactX.configs['recommended-typescript'].rules,
-    ...reactDom.configs.recommended.rules,
-  },
-})
-```
+---
+
+## Installation
+
+Install using **npm** or **yarn**:
+
+```bash
+# Using npm
+npm install react-stepwise
+
+# Using yarn
+yarn add react-stepwise
+
+
+| Prop                 | Type                                        | Default          | Description                                            |           |                 |
+| -------------------- | ------------------------------------------- | ---------------- | ------------------------------------------------------ | --------- | --------------- |
+| `steps`              | `number`                                    | `0`              | Number of steps (used if `stepData` not provided)      |           |                 |
+| `stepData`           | `Step[]`                                    | `undefined`      | Array of objects \`{ label?: string, status: 'pending' | 'current' | 'completed' }\` |
+| `currentStep`        | `number`                                    | `0`              | Current active step                                    |           |                 |
+| `setCurrentStep`     | `(step: number) => void`                    | `undefined`      | Optional setter to update current step                 |           |                 |
+| `type`               | `"count" \| "check" \| "silent"`            | `"count"`        | Stepper type                                           |           |                 |
+| `size`               | `"sm" \| "md" \| "lg"`                      | `"md"`           | Step size                                              |           |                 |
+| `bgColor`            | `string`                                    | `"bg-green-500"` | Background color of active/completed steps             |           |                 |
+| `color`              | `string`                                    | `"text-white"`   | Text/icon color of active/completed steps              |           |                 |
+| `icon`               | `ReactNode \| (index: number) => ReactNode` | `Check icon`     | Custom icon for completed steps                        |           |                 |
+| `className`          | `string`                                    | `""`             | Additional classes for step circles                    |           |                 |
+| `connectorClassName` | `string`                                    | `""`             | Additional classes for connectors between steps        |           |                 |
+| `animate`            | `boolean`                                   | `false`          | Add smooth transition animation                        |           |                 |
