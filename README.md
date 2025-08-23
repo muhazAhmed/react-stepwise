@@ -2,6 +2,7 @@
 
 **Author:** Muhaz Ahmed  
 **License:** MIT  
+**Documentation:** [react-stepwise.vercel.app/](https://react-stepwise.vercel.app/)  
 **Repository:** [github.com/muhazAhmed/react-stepwise](https://github.com/muhazAhmed/react-stepwise)
 
 ---
@@ -52,3 +53,14 @@ yarn add react-stepwise
 | `className`          | `string`                                    | `""`             | Additional classes for step circles                    |           |                 |
 | `connectorClassName` | `string`                                    | `""`             | Additional classes for connectors between steps        |           |                 |
 | `animate`            | `boolean`                                   | `false`          | Add smooth transition animation                        |           |                 |
+```
+## Variants
+- Count Variant: Numeric stepper
+- Check Variant: Completed steps show check icons
+- Custom Icon: Use any icon or emoji
+- Silent Variant: No numbers/icons, just progress connectors
+- Step Data Variant: Fully controlled stepper with labels and custom statuses
+
+## License
+MIT © Muhaz Ahmed
+
