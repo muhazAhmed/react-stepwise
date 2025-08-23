@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.10 (2025-08-23)
+
+
+### Bug Fixes
+
+* added .npmignore ([0b99763](https://github.com/muhazAhmed/react-stepwise/commit/0b9976383c478e5e32bf37435c3ec4117a42b98d))
+
 ### 0.0.9 (2025-08-23)
 
 ### 0.0.8 (2025-08-23)
