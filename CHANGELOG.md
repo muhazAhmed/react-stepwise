@@ -2,6 +2,19 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/muhazAhmed/react-stepwise/compare/v0.0.3...v0.0.4) (2025-08-23)
+
+
+### Features
+
+* added all props ([3e59cfe](https://github.com/muhazAhmed/react-stepwise/commit/3e59cfedbda7fc29be755d9fe8617b6aee4dd8a2))
+* added presenation pages ([33b2dfc](https://github.com/muhazAhmed/react-stepwise/commit/33b2dfc07da1bb3ee81d197d214a3d2548f4f89a))
+
+
+### Bug Fixes
+
+* some minor changes on index ([bdb2f37](https://github.com/muhazAhmed/react-stepwise/commit/bdb2f371e75f7859511b1e6c633146b15c22843c))
+
 ### 0.0.3 (2025-06-23)
 
 ### 0.0.2 (2025-06-23)
