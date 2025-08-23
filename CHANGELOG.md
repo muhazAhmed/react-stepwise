@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file. See [standa
 
 ### 0.0.5 (2025-08-23)
 
+
+### Bug Fixes
+
+* removed private state ([657f70c](https://github.com/muhazAhmed/react-stepwise/commit/657f70ce62fc97bd637193fb6db2d87530ecf95b))
+
+### 0.0.5 (2025-08-23)
+
 ### [0.0.4](https://github.com/muhazAhmed/react-stepwise/compare/v0.0.3...v0.0.4) (2025-08-23)
 
 
