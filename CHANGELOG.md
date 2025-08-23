@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.12 (2025-08-23)
+
+
+### Bug Fixes
+
+* removed types from exports ([099b09d](https://github.com/muhazAhmed/react-stepwise/commit/099b09dba7559e81691576dece46f416a76ec8e9))
+
 ### 0.0.11 (2025-08-23)
 
 
