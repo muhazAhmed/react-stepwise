@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.7 (2025-08-23)
+
+
+### Bug Fixes
+
+* ignored some files ([a23ba01](https://github.com/muhazAhmed/react-stepwise/commit/a23ba01cb3df24d191e6c85d45488cf550571308))
+
 ### 0.0.6 (2025-08-23)
 
 ### [0.0.5](https://github.com/muhazAhmed/react-stepwise/compare/v0.0.4...v0.0.5) (2025-08-23)
