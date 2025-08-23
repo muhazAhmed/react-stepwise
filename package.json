@@ -23,12 +23,15 @@
     ".": {
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
-    }
+    },
+    "./dist/style.css": "./dist/style.css",
+    "./style.css": "./dist/style.css"
   },
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "tsup src/index.tsx --dts --format cjs,esm --tsconfig tsconfig.build.json",
+    "build:css": "tailwindcss -i ./src/index.css -o ./dist/style.css --minify",
+    "build": "tsup src/index.tsx --dts --format cjs,esm --tsconfig tsconfig.build.json && npm run build:css",
     "test": "vitest",
     "release": "standard-version",
     "lint": "eslint .",
@@ -76,5 +79,6 @@
     "dist",
     "README.md",
     "LICENSE.md"
-  ]
+  ],
+  "style": "dist/style.css"
 }
