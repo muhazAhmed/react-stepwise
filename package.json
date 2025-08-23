@@ -1,6 +1,6 @@
 {
   "name": "react-stepwise",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "Customizable, animated multi-step form component for React + Tailwind.",
   "author": "Muhaz Ahmed",
   "license": "MIT",

@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.11 (2025-08-23)
+
+
+### Bug Fixes
+
+* changes on dist modules ([dcdc0f8](https://github.com/muhazAhmed/react-stepwise/commit/dcdc0f8d00da30cd708fc8fd7d4c36ea6bde8ec5))
+
 ### 0.0.10 (2025-08-23)
 
 
