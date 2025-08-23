@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.16 (2025-08-23)
+
+
+### Bug Fixes
+
+* removed docs ([9b82589](https://github.com/muhazAhmed/react-stepwise/commit/9b82589183caf61a38817d7f44f6195685bb3d5b))
+
 ### 0.0.15 (2025-08-23)
 
 ### 0.0.14 (2025-08-23)
