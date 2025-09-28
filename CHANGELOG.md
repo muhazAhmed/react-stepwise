@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### 0.0.17 (2025-09-28)
+
+
+### Bug Fixes
+
+* **styles:** remove Tailwind base layer from build to prevent global resets ([b959ce0](https://github.com/muhazAhmed/react-stepwise/commit/b959ce01f97ca3a95396a1547f2f5dbbb44a99ec))
+
 ### 0.0.16 (2025-08-23)
 
 
